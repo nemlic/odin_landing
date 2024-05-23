@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px 70px 200px ;
+}
+.logo {
+    font-size: 24px;
+}
+.navlinks ul li {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+.navlinks ul li a {
+    font-size: 18px;
+    color: #E5e7eb;
+    text-decoration: none;
+
+}
+#home {
+    display: flex;
+    background: #1f2937;
+    padding: 10px 200px 120px 200px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-txt {
+    padding-right: 40px;
+}
+.main-txt h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.main-txt p {
+    font-size: 18px;
+    color: #E5e7eb;
+    padding-bottom: 10px;
+    
+}
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 5px 24px ;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px #3882f6;
+}
+.imageplc img {
+    height: 200px;
+    width:500px;
+    position: relative;
+}
+#rand-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 200px 120px 200px ;
+
+}
+.headrand {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 1000;
+    text-align: center;
+    padding: 30px;
+}
+.colums {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column {
+    width: 150px;
+
+}
+.column img {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+.column p {
+    text-align: center;
+}
+#quote {
+    background: #E5e7eb;
+    padding: 150px 270px 120px 280px ;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+#contact {
+    color: #f9faf8;
+    align-items: center;
+    padding: 10px 200px 120px 200px ;
+}
+.blue {
+    background: #3882f6;
+    display: flex; 
+    justify-content: stretch; 
+    padding: 30px 90px;
+    border-radius: 8px;
+}
+.blue button {
+    margin-left: 90px;
+    border: solid #F9FAF8;
+}
+.textbox{
+    margin-right: 130px;
+}
+#footer{
+    background: #1F2937;
+    padding: 20px 200px 30px 200px ;
+    color: #f9faf8;
+    text-align: center;
+    font-size:12px
+
+}
